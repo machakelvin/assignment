@@ -1,0 +1,148 @@
+body{
+    background: #18edf5;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    }
+.macha{
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+.dropdown{
+    margin: 0 auto;
+}
+nav{
+    height: 60px;
+    background: #2c3e50;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+.logo{
+    padding: 5px 0 0 80px;
+    width: 150px;
+    height: auto;
+}
+nav ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    background: #2c3e50;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background: #e0c214;
+
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul{
+ display: block;
+}
+
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 0px 30px;
+}
+h1{
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+.sim{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+h1:hover{
+    color: maroon;
+}
+marquee{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        direction: up;
+        width: 75%;
+        height: 72px;
+        margin-left: 10%;
+        font-size: 36px;
+        padding: 30px 35px;
+}
+p{
+    margin-bottom: dotted red;
+    padding: 20px 20px;
+}
+h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+h3:hover{
+    color: maroon;
+}
+/*footer starts*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background-color: #333;
+    font-family: sans-serif;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+    margin-right: 20px;
+    
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h4{
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-2 li{
+    text-decoration: none;
+    list-style: none;
+}
+@media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+ @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,31 @@
+.macha{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20%;
+  margin-right:20% ;
+  background-color: rgb(248, 246, 244);
+  border-radius: 5px;
+}
+.kev{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20%;
+  margin-right:20% ;
+  font-weight: 900;
+}
+p{
+  margin-left: 20%;
+  font-weight: 700;
+}
+.apple{
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  margin-bottom: 6px;
+  padding-top: 60px;
+  padding-bottom:80px;
+}
+.apple:hover{
+  color:  maroon;
+}

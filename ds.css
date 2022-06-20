@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=number]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=password]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=month]{
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=file]{
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  select{
+    width: 30%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=date]{
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=radio]{
+    margin-left: 15px;
+  }
+.prot{
+  margin-left: 15px;
+}
+button{
+  background-color: #ace215;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 8px;
+}
+button a{
+  text-decoration: none;
+}
+  
+.prot:hover{
+  color: red;
+}
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+  input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    float: left;
+    margin-left: 6px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2e09d6;
+  }
+  input[type=reset]:hover {
+    background-color: #d60909;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: center;
+    width: 25%;
+    margin-top: 6px;
+    padding-left: 20px;
+  }
+  .col-25:hover{
+    color:red;
+  }
+  
+  .col-75 {
+    float: center;
+    width: 75%;
+    margin-top: 6px;
+    padding-left: 20px;
+    text-align-last: auto;
+    border-radius: 50px;
+    padding-bottom: 20px;
+  }
+  
+  h1{
+    text-align: center;
+    font-family: serif;
+    }
+    h1:hover{
+      color: lawngreen;
+    }
+    fieldset{
+      background-color: white;
+      margin-left: 20%;
+      margin-right: 20%;
+      border-radius: 20px;
+    }
