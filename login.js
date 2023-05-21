@@ -1,18 +1,18 @@
 function validation(){
-    var id=document.f1.user.value;
-    var ps=document.f1.pass.value;
+    var id = document.f1.user.value;
+    var ps = document.f1.pass.value;
     if(id.length==""&&ps>length==""){
-        alert("username and password are required");
+        alert("Username and Password are required");
         return false;
     }
     else
     {
         if(id.length==""){
-            alert("username can not be blank");
+            alert("Username can not be blank");
         return false;
         }
 if(ps.lenth==""){
-    alert("password field is empty");
+    alert("Password field is empty");
     return false;
 }
     }
